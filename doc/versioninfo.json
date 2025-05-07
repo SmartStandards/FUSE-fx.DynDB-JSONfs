@@ -1,13 +1,13 @@
 {
-  "currentVersion": "0.1.0",
-  "currentVersionWithSuffix": "0.1.0",
+  "currentVersion": "0.1.1",
+  "currentVersionWithSuffix": "0.1.1",
   "releaseType": "",
-  "previousVersion": "0.0.0",
+  "previousVersion": "0.1.0",
   "changeGrade": "fix",
   "currentMajor": 0,
   "currentMinor": 1,
-  "currentPatch": 0,
+  "currentPatch": 1,
   "versionDateInfo": "2025-05-07",
-  "versionTimeInfo": "13:24:24",
-  "versionNotes": "- initial commit (moved from PoC-Repo)\n"
+  "versionTimeInfo": "13:50:58",
+  "versionNotes": "- new revision without significant changes\n"
 }
