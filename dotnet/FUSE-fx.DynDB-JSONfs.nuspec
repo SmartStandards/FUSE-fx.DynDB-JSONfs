@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FUSE-fx.DynDB-JSONfs</id>
+    <version>999.0.0-localbuild</version>
+    <title>FUSE-fx.DynDB-JSONfs</title>
+    <authors>SmartStandards</authors>
+    <owners>SmartStandards</owners>
+    <copyright>SmartStandards</copyright>
+    <description>FUSE-fx.DynDB-JSONfs</description>
+    <tags></tags>
+    <!-- https://spdx.org/licenses/ -->
+    <license type="expression">GPL-3.0-only</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>PackageIcon.png</icon>
+    <projectUrl>https://github.com/SmartStandards/FUSE-fx.DynDB-JSONfs</projectUrl>
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="FUSE-fx.EntityAnnotations" Version="4.0.3" />
+        <dependency id="FUSE-fx.ModelDescription" Version="2.0.10" />
+        <dependency id="FUSE-fx.ModelReader" Version="0.1.14" />
+        <dependency id="FUSE-fx.RepositoryContract" Version="0.3.1" />
+        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" Version="2.1.0" />
+        <dependency id="Newtonsoft.Json" Version="13.0.3" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="FUSE-fx.EntityAnnotations" Version="4.0.3" />
+        <dependency id="FUSE-fx.ModelDescription" Version="2.0.10" />
+        <dependency id="FUSE-fx.ModelReader" Version="0.1.14" />
+        <dependency id="FUSE-fx.RepositoryContract" Version="0.3.1" />
+        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" Version="2.1.0" />
+        <dependency id="Newtonsoft.Json" Version="13.0.3" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="FUSE-fx.EntityAnnotations" Version="4.0.3" />
+        <dependency id="FUSE-fx.ModelDescription" Version="2.0.10" />
+        <dependency id="FUSE-fx.ModelReader" Version="0.1.14" />
+        <dependency id="FUSE-fx.RepositoryContract" Version="0.3.1" />
+        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" Version="2.1.0" />
+        <dependency id="Newtonsoft.Json" Version="13.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package#from-a-convention-based-working-directory -->
+    <file src="PackageIcon.png" target="" />
+    <!-- .NET 4.8 -->
+    <file src="dist\bin-net48\FUSE-fx.DynDB-JSONfs.dll" target="lib/net48" />
+    <file src="dist\bin-net48\FUSE-fx.DynDB-JSONfs.xml" target="lib/net48" />
+    <file src="dist\bin-net48\FUSE-fx.DynDB-JSONfs.pdb" target="lib/net48" />
+    <!-- .NET 6.0 -->
+    <file src="dist\bin-net6.0\FUSE-fx.DynDB-JSONfs.dll" target="lib/net6.0" />
+    <file src="dist\bin-net6.0\FUSE-fx.DynDB-JSONfs.xml" target="lib/net6.0" />
+    <file src="dist\bin-net6.0\FUSE-fx.DynDB-JSONfs.pdb" target="lib/net6.0" />
+    <!-- .NET 8.0 -->
+    <file src="dist\bin-net8.0\FUSE-fx.DynDB-JSONfs.dll" target="lib/net8.0" />
+    <file src="dist\bin-net8.0\FUSE-fx.DynDB-JSONfs.xml" target="lib/net8.0" />
+    <file src="dist\bin-net8.0\FUSE-fx.DynDB-JSONfs.pdb" target="lib/net8.0" />
+  </files>
+</package>

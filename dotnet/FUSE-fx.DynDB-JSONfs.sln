@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4130D21C-FE8F-4925-93E7-217B4AF1B7D9}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\changelog.md = ..\doc\changelog.md
+		FUSE-fx.DynDB-JSONfs.nuspec = FUSE-fx.DynDB-JSONfs.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFB5135D-039A-4D92-8FDD-9EA5D070F991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{ADA576B9-92C4-4C75-9605-06023D1026B2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FUSE-fx.DynDB-JSONfs", "src\FUSE-fx.DynDB-JSONfs\FUSE-fx.DynDB-JSONfs.shproj", "{CF0A161A-99BA-4F01-AF5E-16C6FCBC85AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FUSE-fx.DynDB-JSONfs.net6.0", "src\FUSE-fx.DynDB-JSONfs.net6.0\FUSE-fx.DynDB-JSONfs.net6.0.csproj", "{2F38DC7A-F1DB-4FEA-834D-1215000070D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{116AF6D4-3D94-4BB2-B9A1-334012229E3D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FUSE-fx.DynDB-JSONfs.Tests", "test\FUSE-fx.DynDB-JSONfs.Tests\FUSE-fx.DynDB-JSONfs.Tests.shproj", "{5E17C8E8-0BC8-4F7C-A022-C8104A415628}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{DA862546-D9BE-4A1D-882F-45D66827363F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.DynDB-JSONfs.net8.0", "src\FUSE-fx.DynDB-JSONfs.net8.0\FUSE-fx.DynDB-JSONfs.net8.0.csproj", "{818A58C0-D5EE-47E9-95C0-80FA2455A052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.DynDB-JSONfs.net48", "src\FUSE-fx.DynDB-JSONfs.net48\FUSE-fx.DynDB-JSONfs.net48.csproj", "{B0BA06FE-6437-4B9E-8C76-3ADFC8D191D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.DynDB-JSONfs.Tests.net8.0", "test\FUSE-fx.DynDB-JSONfs.Tests.net8.0\FUSE-fx.DynDB-JSONfs.Tests.net8.0.csproj", "{BA50D2B6-2085-4DD2-9B6D-CDEDE4D21911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.DynDB-JSONfs.Tests.net48", "test\FUSE-fx.DynDB-JSONfs.Tests.net48\FUSE-fx.DynDB-JSONfs.Tests.net48.csproj", "{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.DynDB-JSONfs.DemoApp", "test\FUSE-fx.DynDB-JSONfs.DemoApp\FUSE-fx.DynDB-JSONfs.DemoApp.csproj", "{A27C51F5-E2DF-4262-B592-E7669FC8C553}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F38DC7A-F1DB-4FEA-834D-1215000070D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F38DC7A-F1DB-4FEA-834D-1215000070D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F38DC7A-F1DB-4FEA-834D-1215000070D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F38DC7A-F1DB-4FEA-834D-1215000070D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818A58C0-D5EE-47E9-95C0-80FA2455A052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818A58C0-D5EE-47E9-95C0-80FA2455A052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818A58C0-D5EE-47E9-95C0-80FA2455A052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818A58C0-D5EE-47E9-95C0-80FA2455A052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BA06FE-6437-4B9E-8C76-3ADFC8D191D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BA06FE-6437-4B9E-8C76-3ADFC8D191D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BA06FE-6437-4B9E-8C76-3ADFC8D191D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BA06FE-6437-4B9E-8C76-3ADFC8D191D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA50D2B6-2085-4DD2-9B6D-CDEDE4D21911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA50D2B6-2085-4DD2-9B6D-CDEDE4D21911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA50D2B6-2085-4DD2-9B6D-CDEDE4D21911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA50D2B6-2085-4DD2-9B6D-CDEDE4D21911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27C51F5-E2DF-4262-B592-E7669FC8C553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27C51F5-E2DF-4262-B592-E7669FC8C553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27C51F5-E2DF-4262-B592-E7669FC8C553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27C51F5-E2DF-4262-B592-E7669FC8C553}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADA576B9-92C4-4C75-9605-06023D1026B2} = {EFB5135D-039A-4D92-8FDD-9EA5D070F991}
+		{CF0A161A-99BA-4F01-AF5E-16C6FCBC85AE} = {EFB5135D-039A-4D92-8FDD-9EA5D070F991}
+		{2F38DC7A-F1DB-4FEA-834D-1215000070D4} = {ADA576B9-92C4-4C75-9605-06023D1026B2}
+		{5E17C8E8-0BC8-4F7C-A022-C8104A415628} = {116AF6D4-3D94-4BB2-B9A1-334012229E3D}
+		{DA862546-D9BE-4A1D-882F-45D66827363F} = {116AF6D4-3D94-4BB2-B9A1-334012229E3D}
+		{818A58C0-D5EE-47E9-95C0-80FA2455A052} = {ADA576B9-92C4-4C75-9605-06023D1026B2}
+		{B0BA06FE-6437-4B9E-8C76-3ADFC8D191D2} = {ADA576B9-92C4-4C75-9605-06023D1026B2}
+		{BA50D2B6-2085-4DD2-9B6D-CDEDE4D21911} = {DA862546-D9BE-4A1D-882F-45D66827363F}
+		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13} = {DA862546-D9BE-4A1D-882F-45D66827363F}
+		{A27C51F5-E2DF-4262-B592-E7669FC8C553} = {116AF6D4-3D94-4BB2-B9A1-334012229E3D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2F37C1D-32F0-4BF2-AAEB-46B9D8C07D23}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\FUSE-fx.DynDB-JSONfs\FUSE-fx.DynDB-JSONfs.projitems*{2f38dc7a-f1db-4fea-834d-1215000070d4}*SharedItemsImports = 5
+		test\FUSE-fx.DynDB-JSONfs.Tests\FUSE-fx.DynDB-JSONfs.Tests.projitems*{5e17c8e8-0bc8-4f7c-a022-c8104a415628}*SharedItemsImports = 13
+		src\FUSE-fx.DynDB-JSONfs\FUSE-fx.DynDB-JSONfs.projitems*{818a58c0-d5ee-47e9-95c0-80fa2455a052}*SharedItemsImports = 5
+		src\FUSE-fx.DynDB-JSONfs\FUSE-fx.DynDB-JSONfs.projitems*{b0ba06fe-6437-4b9e-8c76-3adfc8d191d2}*SharedItemsImports = 4
+		test\FUSE-fx.DynDB-JSONfs.Tests\FUSE-fx.DynDB-JSONfs.Tests.projitems*{ba50d2b6-2085-4dd2-9b6d-cdede4d21911}*SharedItemsImports = 5
+		src\FUSE-fx.DynDB-JSONfs\FUSE-fx.DynDB-JSONfs.projitems*{cf0a161a-99ba-4f01-af5e-16c6fcbc85ae}*SharedItemsImports = 13
+		test\FUSE-fx.DynDB-JSONfs.Tests\FUSE-fx.DynDB-JSONfs.Tests.projitems*{d0b8734c-340f-4b2a-80ee-c00afdd59e13}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
