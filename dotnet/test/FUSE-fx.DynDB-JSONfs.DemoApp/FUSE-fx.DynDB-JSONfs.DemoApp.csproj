@@ -36,6 +36,7 @@
     <PackageReference Include="FUSE-fx.RepositoryContract" Version="0.5.2" />
     <PackageReference Include="FUSE-fx.WinForms" Version="0.1.0" />
     <PackageReference Include="KornSW.AbstractFileSystem.Common" Version="2.1.0" />
+    <PackageReference Include="KornSW.AbstractFileSystem.RepositoryContract" Version="2.1.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

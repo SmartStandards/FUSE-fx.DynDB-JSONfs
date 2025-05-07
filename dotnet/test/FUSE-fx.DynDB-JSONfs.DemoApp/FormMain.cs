@@ -18,6 +18,10 @@ namespace System.Data.Fuse.WinFormsDemo {
       this.InitializeComponent();
     }
 
+
+    // ACHTUNG: ÄNDERUNGEN BITTE AUCH IMMER IN DER DEMO APP DES
+    // GESCHWISTER-PROJEKTs IN 'FUSE-fx.WinForms' SYNCHRON HALTEN
+
     private void FormMain_FormClosing(object sender, FormClosingEventArgs e) {
     }
 
