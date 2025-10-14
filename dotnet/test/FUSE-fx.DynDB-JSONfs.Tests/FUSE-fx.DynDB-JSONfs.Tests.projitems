@@ -10,5 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)DynDbTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PoC2\JsonDbEngine.cs" />
   </ItemGroup>
 </Project>

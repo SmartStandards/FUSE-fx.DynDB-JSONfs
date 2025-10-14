@@ -9,7 +9,22 @@
     <Import_RootNamespace>System</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)AfsExtensions %28nach AFS umziehen%29.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)JsonDbEngine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\ExpressionEvaluator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\SortingHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\FileChangeTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\FileChangeInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\CsvIndexManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\CsvWal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\FilesystemIndexOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\FilesystemAccessContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\FilesystemRepositoryOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\FilesystemRepository'2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\EntityAccessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\FileNameEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\RetryHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\L1Cache.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)JsonFileEngine\Internals\" />
   </ItemGroup>
 </Project>

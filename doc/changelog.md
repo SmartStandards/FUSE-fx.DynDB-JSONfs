@@ -7,9 +7,9 @@ This files contains a version history including all changes relevant for semanti
 
 ## Upcoming Changes
 
-*(none)*
+* **new Feature**: Conceptual Iteration 2
 
-
+  
 
 ## v 0.1.2
 released **2025-05-07**, including:
