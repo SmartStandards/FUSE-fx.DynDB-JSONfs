@@ -41,10 +41,11 @@
   <ItemGroup>
     <PackageReference Include="FUSE-fx.EntityAnnotations" Version="4.3.0" />
     <PackageReference Include="FUSE-fx.ModelDescription" Version="2.1.0" />
-    <PackageReference Include="FUSE-fx.ModelReader" Version="0.2.20" />
+    <PackageReference Include="FUSE-fx.ModelReader" Version="0.3.0" />
     <PackageReference Include="FUSE-fx.RepositoryContract" Version="1.1.0" />
     <PackageReference Include="KornSW.AbstractFileSystem.RepositoryContract" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="SmartStandards.Logging" Version="3.4.3" />
   </ItemGroup>
 
 </Project>

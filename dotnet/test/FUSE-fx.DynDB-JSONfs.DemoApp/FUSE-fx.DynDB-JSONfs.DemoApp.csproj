@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net10.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <BaseOutputPath>..\..\dist\bin-net6.0</BaseOutputPath>
+    <BaseOutputPath>..\..\dist\bin-net10.0</BaseOutputPath>
     <AssemblyName>FUSE-DynDBJSONfs-Demo</AssemblyName>
     <Title>FUSE-fx DynDB-JSONfs Demo</Title>
     <ApplicationIcon>appicon.ico</ApplicationIcon>
@@ -32,12 +32,13 @@
   <ItemGroup>
     <PackageReference Include="FUSE-fx.EntityAnnotations" Version="4.3.0" />
     <PackageReference Include="FUSE-fx.ModelDescription" Version="2.1.0" />
-    <PackageReference Include="FUSE-fx.ModelReader" Version="0.2.20" />
+    <PackageReference Include="FUSE-fx.ModelReader" Version="0.3.0" />
     <PackageReference Include="FUSE-fx.RepositoryContract" Version="1.1.0" />
     <PackageReference Include="FUSE-fx.WinForms" Version="0.2.0" />
     <PackageReference Include="KornSW.AbstractFileSystem.Common" Version="2.2.0" />
     <PackageReference Include="KornSW.AbstractFileSystem.RepositoryContract" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="SmartStandards.Logging" Version="3.4.3" />
   </ItemGroup>
 
   <ItemGroup>
