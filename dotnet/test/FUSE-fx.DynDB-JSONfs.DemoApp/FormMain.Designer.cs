@@ -26,42 +26,51 @@ namespace System.Data.Fuse.WinFormsDemo {
     ///  the contents of this method with the code editor.
     /// </summary>
     private void InitializeComponent() {
+      ExpressionTree expressionTree1 = new ExpressionTree();
       ComponentModel.ComponentResourceManager resources = new ComponentModel.ComponentResourceManager(typeof(FormMain));
       _FuseTable = new FuseTable();
-      label1 = new System.Windows.Forms.Label();
+      _BtnAddNewEntity = new Windows.Forms.Button();
       this.SuspendLayout();
       // 
       // _FuseTable
       // 
       _FuseTable.Anchor = Windows.Forms.AnchorStyles.Top | Windows.Forms.AnchorStyles.Bottom | Windows.Forms.AnchorStyles.Left | Windows.Forms.AnchorStyles.Right;
       _FuseTable.AutoSize = true;
-      _FuseTable.Location = new System.Drawing.Point(12, 30);
+      _FuseTable.EntitySchema = null;
+      expressionTree1.MatchAll = true;
+      expressionTree1.Negate = false;
+      expressionTree1.SubTree = null;
+      _FuseTable.ExpressionTree = expressionTree1;
+      _FuseTable.Limit = 100;
+      _FuseTable.Location = new Drawing.Point(12, 30);
       _FuseTable.Name = "_FuseTable";
-      _FuseTable.Size = new System.Drawing.Size(657, 449);
+      _FuseTable.Size = new Drawing.Size(657, 449);
+      _FuseTable.Skip = 0;
+      _FuseTable.SortedBy = null;
       _FuseTable.TabIndex = 0;
       // 
-      // label1
+      // _BtnAddNewEntity
       // 
-      label1.AutoSize = true;
-      label1.Font = new System.Drawing.Font("Segoe UI", 9F, Drawing.FontStyle.Bold | Drawing.FontStyle.Italic, Drawing.GraphicsUnit.Point);
-      label1.ForeColor = Drawing.Color.FromArgb(192, 0, 0);
-      label1.Location = new System.Drawing.Point(12, 12);
-      label1.Name = "label1";
-      label1.Size = new System.Drawing.Size(449, 15);
-      label1.TabIndex = 1;
-      label1.Text = "TODO: Demo sollte FUSE-fx.DynDB-JSON fs (in AppData.Local) veranschlichen!";
+      _BtnAddNewEntity.Location = new Drawing.Point(556, 12);
+      _BtnAddNewEntity.Name = "_BtnAddNewEntity";
+      _BtnAddNewEntity.Size = new Drawing.Size(113, 38);
+      _BtnAddNewEntity.TabIndex = 2;
+      _BtnAddNewEntity.Text = "Add new Entity";
+      _BtnAddNewEntity.UseVisualStyleBackColor = true;
+      _BtnAddNewEntity.Click += this._BtnAddNewEntity_Click;
       // 
       // FormMain
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+      this.AutoScaleDimensions = new Drawing.SizeF(7F, 15F);
       this.AutoScaleMode = Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(681, 491);
-      this.Controls.Add(label1);
+      this.ClientSize = new Drawing.Size(681, 491);
+      this.Controls.Add(_BtnAddNewEntity);
       this.Controls.Add(_FuseTable);
       this.Icon = (Drawing.Icon)resources.GetObject("$this.Icon");
       this.Name = "FormMain";
       this.StartPosition = Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "FUSE-fx WinForms Demo (by Smart Standards)";
+      this.Load += this.FormMain_Load;
       this.ResumeLayout(false);
       this.PerformLayout();
     }
@@ -69,7 +78,7 @@ namespace System.Data.Fuse.WinFormsDemo {
     #endregion
 
     private System.Data.Fuse.FuseTable _FuseTable;
-    private Windows.Forms.Label label1;
+    private Windows.Forms.Button _BtnAddNewEntity;
   }
 }
 

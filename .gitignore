@@ -339,4 +339,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /dotnet/dist
-/dotnet/vendor/nuget
+/**/vendor/nuget

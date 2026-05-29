@@ -7,9 +7,10 @@ This files contains a version history including all changes relevant for semanti
 
 ## Upcoming Changes
 
+* **new Feature**: Conceptual Iteration 2
 * **new Feature**: Moved targets from .net 6/8 to 8/10
 
-
+  
 
 ## v 0.1.2
 released **2025-05-07**, including:

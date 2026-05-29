@@ -34,9 +34,11 @@
     <PackageReference Include="FUSE-fx.RepositoryContract" Version="1.1.0" />
     <PackageReference Include="KornSW.AbstractFileSystem.Common" Version="2.2.0" />
     <PackageReference Include="KornSW.AbstractFileSystem.RepositoryContract" Version="2.2.0" />
+    <PackageReference Include="MSTest" Version="3.3.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.3.1" />
     <PackageReference Include="MSTest.TestFramework" Version="3.3.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SmartStandards.Logging" Version="3.3.1" />
   </ItemGroup>
 
   <ItemGroup>
