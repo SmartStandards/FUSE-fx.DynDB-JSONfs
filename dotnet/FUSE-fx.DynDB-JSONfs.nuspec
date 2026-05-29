@@ -16,28 +16,28 @@
     <projectUrl>https://github.com/SmartStandards/FUSE-fx.DynDB-JSONfs</projectUrl>
     <dependencies>
       <group targetFramework=".NETFramework4.8">
-        <dependency id="FUSE-fx.EntityAnnotations" version="4.0.3" />
-        <dependency id="FUSE-fx.ModelDescription" version="2.0.10" />
-        <dependency id="FUSE-fx.ModelReader" version="0.1.14" />
-        <dependency id="FUSE-fx.RepositoryContract" version="0.3.1" />
-        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" version="2.1.0" />
-        <dependency id="Newtonsoft.Json" version="13.0.3" />
-      </group>
-      <group targetFramework="net6.0">
-        <dependency id="FUSE-fx.EntityAnnotations" version="4.0.3" />
-        <dependency id="FUSE-fx.ModelDescription" version="2.0.10" />
-        <dependency id="FUSE-fx.ModelReader" version="0.1.14" />
-        <dependency id="FUSE-fx.RepositoryContract" version="0.3.1" />
-        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" version="2.1.0" />
+        <dependency id="FUSE-fx.EntityAnnotations" version="4.3.0" />
+        <dependency id="FUSE-fx.ModelDescription" version="2.1.0" />
+        <dependency id="FUSE-fx.ModelReader" version="0.2.20" />
+        <dependency id="FUSE-fx.RepositoryContract" version="1.1.0" />
+        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" version="2.2.0" />
         <dependency id="Newtonsoft.Json" version="13.0.3" />
       </group>
       <group targetFramework="net8.0">
-        <dependency id="FUSE-fx.EntityAnnotations" version="4.0.3" />
-        <dependency id="FUSE-fx.ModelDescription" version="2.0.10" />
-        <dependency id="FUSE-fx.ModelReader" version="0.1.14" />
-        <dependency id="FUSE-fx.RepositoryContract" version="0.3.1" />
-        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" version="2.1.0" />
+        <dependency id="FUSE-fx.EntityAnnotations" version="4.3.0" />
+        <dependency id="FUSE-fx.ModelDescription" version="2.1.0" />
+        <dependency id="FUSE-fx.ModelReader" version="0.2.20" />
+        <dependency id="FUSE-fx.RepositoryContract" version="1.1.0" />
+        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" version="2.2.0" />
         <dependency id="Newtonsoft.Json" version="13.0.3" />
+      </group>
+      <group targetFramework="net10.0">
+        <dependency id="FUSE-fx.EntityAnnotations" version="4.3.0" />
+        <dependency id="FUSE-fx.ModelDescription" version="2.1.0" />
+        <dependency id="FUSE-fx.ModelReader" version="0.2.20" />
+        <dependency id="FUSE-fx.RepositoryContract" version="1.1.0" />
+        <dependency id="KornSW.AbstractFileSystem.RepositoryContract" version="2.2.0" />
+        <dependency id="Newtonsoft.Json" version="13.0.4" />
       </group>
     </dependencies>
   </metadata>
@@ -48,13 +48,13 @@
     <file src="dist\bin-net48\FUSE-fx.DynDB-JSONfs.dll" target="lib/net48" />
     <file src="dist\bin-net48\FUSE-fx.DynDB-JSONfs.xml" target="lib/net48" />
     <file src="dist\bin-net48\FUSE-fx.DynDB-JSONfs.pdb" target="lib/net48" />
-    <!-- .NET 6.0 -->
-    <file src="dist\bin-net6.0\FUSE-fx.DynDB-JSONfs.dll" target="lib/net6.0" />
-    <file src="dist\bin-net6.0\FUSE-fx.DynDB-JSONfs.xml" target="lib/net6.0" />
-    <file src="dist\bin-net6.0\FUSE-fx.DynDB-JSONfs.pdb" target="lib/net6.0" />
     <!-- .NET 8.0 -->
     <file src="dist\bin-net8.0\FUSE-fx.DynDB-JSONfs.dll" target="lib/net8.0" />
     <file src="dist\bin-net8.0\FUSE-fx.DynDB-JSONfs.xml" target="lib/net8.0" />
     <file src="dist\bin-net8.0\FUSE-fx.DynDB-JSONfs.pdb" target="lib/net8.0" />
+    <!-- .NET 10.0 -->
+    <file src="dist\bin-net10.0\FUSE-fx.DynDB-JSONfs.dll" target="lib/net10.0" />
+    <file src="dist\bin-net10.0\FUSE-fx.DynDB-JSONfs.xml" target="lib/net10.0" />
+    <file src="dist\bin-net10.0\FUSE-fx.DynDB-JSONfs.pdb" target="lib/net10.0" />
   </files>
 </package>
